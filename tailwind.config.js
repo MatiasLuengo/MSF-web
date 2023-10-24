@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    /* borderRadius: {
+      '4xl': '36px',
+    }, */
     extend: {
       boxShadow: {
         'dropDown': '0px 8px 16px 0px rgba(0, 0, 0, 0.2);',
