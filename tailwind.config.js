@@ -12,6 +12,7 @@ export default {
       'xs': '550px',
       'sm': '640px',
       'lg': '768px',
+      'xlg': '990px',
       'xl': '1024px',
     },
     extend: {
@@ -27,7 +28,7 @@ export default {
       keyframes: {
         spinOnce: {
               '0%': { transform: 'rotate(odeg)' },
-              '100%': { transform: 'rotate(360deg)' }
+              '100%': { transform: 'rotate(180deg)' }
           }
       }
     },

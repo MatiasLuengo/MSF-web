@@ -1,5 +1,5 @@
-import { ServicesList } from "./components/servicesList"
-import { ContactForm } from "./components/ContactForm"
+import { ServicesList } from "../components/servicesList"
+import { ContactForm } from "../components/ContactForm"
 
 function Home() {
 

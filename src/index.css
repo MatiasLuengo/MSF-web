@@ -72,3 +72,21 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    html{
+        @apply scroll-smooth;
+    }
+}
+
+@layer components{
+  .textBorder {
+    -webkit-text-stroke: 1px black;
+  }
+  .link {
+    @apply hover:font-medium duration-75 h-min m-auto uppercase text-lg whitespace-nowrap;
+  }
+  .linkDrop {
+    @apply whitespace-nowrap hover:font-medium duration-75 w-11/12 m-auto py-1 uppercase text-lg;
+  }
+}
