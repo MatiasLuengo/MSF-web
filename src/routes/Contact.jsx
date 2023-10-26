@@ -7,7 +7,8 @@ export const Contact = ({  }) => {
         <>
         <div className="relative flex justify-center items-center">
             <img className="w-full max-h-[29rem] overflow-hidden" src={imgContact} alt="Trabajadores unidos" />
-            <h2 className="absolute uppercase mx-5 text-white textBorder text-center text-4xl lg:text-[4rem] lg:leading-[66px] font-bold mb-20 mt-28">Juntos potenciamos el crecimiento</h2>
+            <h2 className="absolute z-10 uppercase mx-5 text-white textBorder text-center text-4xl lg:text-[4rem] lg:leading-[66px] font-bold">Juntos potenciamos el crecimiento</h2>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-10"></div>
         </div>
         <h2 className="uppercase text-center text-4xl font-bold mb-20 mt-28">Síguenos en las redes</h2>
         <div className="flex flex-row justify-evenly items-center text-[76px] uppercase mt-5 mb-28">

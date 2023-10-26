@@ -84,7 +84,7 @@ button:focus-visible {
     -webkit-text-stroke: 1px black;
   }
   .link {
-    @apply hover:font-medium duration-75 h-min m-auto uppercase text-lg whitespace-nowrap;
+    @apply hover:font-medium duration-75 h-min m-auto uppercase text-lg whitespace-nowrap xlg:mr-0;
   }
   .linkDrop {
     @apply whitespace-nowrap hover:font-medium duration-75 w-11/12 m-auto py-1 uppercase text-lg;
