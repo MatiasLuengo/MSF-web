@@ -4,7 +4,10 @@ export const ContactForm = ({  }) => {
     return (
         <>
         <h2 className="text-center text-[50px] font-bold mb-20 mt-28 text-[#2e4474]">Contáctanos</h2>
-        <div className=" w-10/12 m-auto rounded-3xl border-[1px] border-black grid lg:grid-cols-2">
+        <div className="relative">
+
+        
+        <div className="bg-white w-10/12 m-auto rounded-3xl border-[1px] border-black grid lg:grid-cols-2 z-20 shadow-lg">
             <form className=" w-10/12 m-auto rounded-3xl flex flex-col py-10" action="https://formsubmit.co/matiasluengoo95@gmail.com" method="POST">
                     <label className="text-sm mb-2" for="Nombre">Nombre y Apellido</label>
                     <input className="border-[1px] border-black rounded-md h-8 mb-4" type="text" name="Nombre" required />
@@ -20,7 +23,8 @@ export const ContactForm = ({  }) => {
             </form>
             <img className=" max-lg:hidden block rounded-r-3xl w-full h-full" src={imgForm} alt="Persona trabajando en una fábrica" />
         </div>
-            
+        <div className="bg-[#0a457d] h-20 w-full absolute bottom-0 -z-10"></div>
+        </div>
         </>
     );
 };
