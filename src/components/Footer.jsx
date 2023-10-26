@@ -1,6 +1,6 @@
 import msftech from "../assets/msf.svg"
-import iso from "../assets/ISO-9001.svg"
-import iqnet from "../assets/iqNet.svg"
+import iso from "../assets/ISO-9001W.svg"
+import iqnet from "../assets/iqNetW.svg"
 import {topFunction} from "../scripts/back-to-top"
 
 export const Footer = ({  }) => {
