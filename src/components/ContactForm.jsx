@@ -3,7 +3,7 @@ import imgForm from "../assets/trabajador.png"
 export const ContactForm = ({  }) => {
     return (
         <>
-        <h2 className="text-center text-[50px] font-bold mb-20 mt-28 text-[#2e4474]">Contáctanos</h2>
+        <h2 className="text-center text-[50px] font-bold mb-20 mt-28 text-[#2e4474] font-rubik">Contáctanos</h2>
         <div className="relative">
 
         

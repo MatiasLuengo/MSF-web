@@ -8,6 +8,13 @@ export default {
     /* borderRadius: {
       '4xl': '36px',
     }, */
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'rubik': ['Rubik', 'ui-sans-serif', 'system-ui'],
+      'noto': ['Noto Sans JP', 'ui-sans-serif', 'system-ui'],
+    },
     screens: {
       'xs': '550px',
       'sm': '640px',
