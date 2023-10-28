@@ -5,9 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    /* borderRadius: {
-      '4xl': '36px',
-    }, */
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
@@ -23,8 +20,14 @@ export default {
       'xl': '1024px',
     },
     extend: {
+      colors: {
+        'primaryBlue': '#0a457d',
+        'primaryOrange': '#f26949',
+        'primaryGreen': '#01a896',
+      },
       gridTemplateColumns: {
         'autoCol': 'repeat(auto-fit, minmax(min(150px, 100%), 1fr));',
+        'autoColStaff': 'repeat(auto-fit, minmax(min(250px, 100%), 1fr));',
       },
       boxShadow: {
         'dropDown': '0px 8px 16px 0px rgba(0, 0, 0, 0.2);',

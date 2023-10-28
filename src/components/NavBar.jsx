@@ -10,7 +10,7 @@ export const NavBar = () => {
         <div className="dropdown block relative group m-auto xlg:mr-0">
             <p className="link">Conoce MSF</p>
             <div className="z-30 bg-white hidden group-hover:flex absolute -left-1 flex-col w-[200px] shadow-dropDown rounded-lg">
-                <Link className="linkDrop border-b-2 border-b-gray-500" to={`/`}>Nuestra Historia</Link>
+                <Link className="linkDrop border-b-2 border-b-gray-500" to={`/Nuestra Empresa`}>Nuestra Empresa</Link>
                 <Link className="linkDrop border-b-2 border-b-gray-500" to={`/Servicios`}>Servicios</Link>
                 <Link className="linkDrop" to={`/`}>Productos</Link>
             </div>
