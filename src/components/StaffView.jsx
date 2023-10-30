@@ -18,7 +18,7 @@ export const StaffView = ({ staff }) => {
             {staff.position &&
             <p className="mt-2">{staff.position}</p>
             }
-            <div className="hidden bg-primaryBlue absolute top-0 bottom-0 left-0 right-0 group-hover:block text-white">
+            <div className="hidden bg-primaryBlue absolute top-0 bottom-0 left-0 right-0 group-hover:animate-fadeIn group-hover:block text-white duration-300">
                 <div className="h-1/2 flex flex-col justify-end w-10/12 mx-auto">
                     <p className="text-2xl font-bold mt-2">{staff.name}</p>
                     <p className="mt-2 text-lg">{staff.position}</p>

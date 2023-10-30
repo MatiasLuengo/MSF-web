@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Service = ({ imgService, imgAlt, tittle, textColor, bgColor, route }) => {
     return (
-        <Link to={route} className="w-min block rounded-[42px]">
+        <Link to={route} className="w-min mx-auto block rounded-[42px]">
             <article className="border w-[350px] h-96 rounded-[42px] shadow-md group cursor-pointer">
                 <div className="relative overflow-hidden h-1/2">
                     <img className="rounded-t-[42px]" src={imgService} alt={imgAlt} />

@@ -33,13 +33,18 @@ export default {
         'dropDown': '0px 8px 16px 0px rgba(0, 0, 0, 0.2);',
       },
       animation: {
-        'spin-once': 'spinOnce 400ms linear'
+        'spin-once': 'spinOnce 400ms linear',
+        'fadeIn' : 'fade 200ms linear'
       },
       keyframes: {
         spinOnce: {
-              '0%': { transform: 'rotate(odeg)' },
-              '100%': { transform: 'rotate(180deg)' }
-          }
+          '0%': { transform: 'rotate(odeg)' },
+          '100%': { transform: 'rotate(180deg)' }
+        },
+        fade: {
+          '0%': {opacity: '0'},
+          '100%': {opacity: '1'}
+        }
       }
     },
   },

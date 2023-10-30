@@ -1,4 +1,4 @@
-import { ServicesList } from "../components/servicesList"
+import { ServicesList } from "../components/ServicesList"
 import { ContactForm } from "../components/ContactForm"
 import { TrustUs } from "../components/TrustUs"
 import img_empresa from "../assets/img_empresa.jpg"
