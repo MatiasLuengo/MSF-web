@@ -16,7 +16,7 @@ export const NavBar = () => {
             </div>
         </div>
         {/* <Link className="link" to={`/Clientes`}>Clientes</Link> */}
-        <Link className="link min-[670px]:ml-0" to={`/Clientes`}>Trabaja con nosotros</Link>
+        <Link className="link min-[670px]:ml-0" to={`/Trabaja con nosotros`}>Trabaja con nosotros</Link>
         <Link className="link min-[670px]:mr-0" to={`/Contacto`}>Contacto</Link>
     </nav>
     </div>

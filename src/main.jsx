@@ -4,6 +4,7 @@ import Home from './routes/Home.jsx'
 import { Contact } from './routes/Contact.jsx'
 import { Services } from './routes/Services.jsx'
 import { Clients } from './routes/Clients.jsx'
+import { WorkWithUs } from './routes/WorkWithUs.jsx'
 import { OurHistory } from './routes/OurHistory.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { NavBar } from './components/NavBar.jsx'
@@ -18,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home />}/>
         <Route path='/Contacto' element={<Contact />}/>
         <Route path='/Servicios' element={<Services />}/>
-        <Route path='/Clientes' element={<Clients />}/>
+        <Route path='/Trabaja con nosotros' element={<WorkWithUs />}/>
         <Route path='/Nuestra Historia' element={<OurHistory />}/>
       </Routes>
       <Footer/>
