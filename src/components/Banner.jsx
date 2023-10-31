@@ -5,7 +5,7 @@ export const Banner = ({ img , alt , text }) => {
         </div>
         <div className="relative flex justify-center items-center">
             <img className="w-full max-h-[26rem] overflow-hidden" src={img} alt={alt} />
-            <h2 className="z-20 absolute uppercase mx-5 text-white textBorder text-center text-4xl lg:text-[4rem] lg:leading-[66px] font-bold font-sans">{text}</h2>
+            <h2 className="z-20 absolute  mx-5 text-white textBorder text-center text-4xl lg:text-[4rem] lg:leading-[66px] font-bold font-sans">{text}</h2>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-25"></div>
         </div>
     </>

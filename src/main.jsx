@@ -19,9 +19,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Contacto' element={<Contact />}/>
         <Route path='/Servicios' element={<Services />}/>
         <Route path='/Clientes' element={<Clients />}/>
-        <Route path='/Nuestra Empresa' element={<OurHistory />}/>
+        <Route path='/Nuestra Historia' element={<OurHistory />}/>
       </Routes>
       <Footer/>
+      <a className="btn-wpp" href="https://api.whatsapp.com/send/?phone=5493564366909" target="_blank" rel="noreferrer noopener">
+        <i class='bx bxl-whatsapp'></i>
+      </a>
     </BrowserRouter>
   </React.StrictMode>,
 )

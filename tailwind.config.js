@@ -28,6 +28,7 @@ export default {
       gridTemplateColumns: {
         'autoCol': 'repeat(auto-fit, minmax(min(150px, 100%), 1fr));',
         'autoColStaff': 'repeat(auto-fit, minmax(min(250px, 100%), 1fr));',
+        'autoColServices': 'repeat(auto-fit, minmax(min(350px, 100%), 1fr));',
       },
       boxShadow: {
         'dropDown': '0px 8px 16px 0px rgba(0, 0, 0, 0.2);',
