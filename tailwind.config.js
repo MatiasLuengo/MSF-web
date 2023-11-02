@@ -13,6 +13,7 @@ export default {
       'noto': ['Noto Sans JP', 'ui-sans-serif', 'system-ui'],
     },
     screens: {
+      'xxs': '460px',
       'xs': '550px',
       'sm': '640px',
       'lg': '768px',

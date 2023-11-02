@@ -88,6 +88,25 @@
         background-color: white;
         color: #0df053;
     }
+
+    /* .prueba{
+      height: auto;
+      margin: auto;
+      position: relative;
+      width: 100%;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    .prueba::before,
+    .prueba::after{
+      background: radial-gradient(circle, rgba(10,69,125,1) 0%, rgba(255,255,255,0) 80%);
+      content: '';
+      height: 25%;
+      position: absolute;
+      width: 100%;
+      z-index: -10;
+    } */
 }
 
 @layer components{
