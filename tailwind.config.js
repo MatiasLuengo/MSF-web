@@ -36,7 +36,7 @@ export default {
       },
       animation: {
         'spin-once': 'spinOnce 400ms linear',
-        'fadeIn' : 'fade 200ms linear'
+        'fadeIn' : 'fade 700ms'
       },
       keyframes: {
         spinOnce: {

@@ -119,4 +119,7 @@
   .linkDrop {
     @apply whitespace-nowrap hover:font-bold duration-75 w-11/12 m-auto py-1 uppercase text-lg;
   }
+  .scaleX-100 {
+    transform: scaleX(1); /* Sin escalamiento en el eje X */
+  }
 }
