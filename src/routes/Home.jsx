@@ -5,7 +5,7 @@ import img_empresa from "../assets/img_empresa.jpg"
 import { Banner } from "../components/Banner"
 
 function Home() {
-
+  
   return (
     <>
       <Banner img={img_empresa} alt={"Taller Industrial"} text={"Innovación en soluciones industriales"}/>

@@ -40,6 +40,7 @@ export const Services = ({  }) => {
     return (
         <>
         <Banner img={img_obras} alt={"Taller Industrial"} text={"Nuestros servicios"}/>
+        <span id="services"></span>
         <div className="w-full overflow-hidden">
             <div className="w-10/12 m-auto flex flex-col">
                 <article className=" flex flex-col gap-y-6 xlg:flex-row mt-20">
