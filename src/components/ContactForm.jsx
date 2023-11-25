@@ -21,7 +21,7 @@ export const ContactForm = ({  }) => {
                     <input type="hidden" name="_next" value="http://localhost:5173/" />
                     <input type="hidden" name="_captcha" value="true" />
             </form>
-            <img className=" max-lg:hidden block rounded-r-3xl w-full h-full" src={imgForm} alt="Persona trabajando en una fábrica" />
+            <img loading="lazy" className=" max-lg:hidden block rounded-r-3xl w-full h-full" src={imgForm} alt="Persona trabajando en una fábrica" />
         </div>
         <div className="bg-[#0a457d] h-20 w-full absolute bottom-0 -z-10"></div>
         </div>
