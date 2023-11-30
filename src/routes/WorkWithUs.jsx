@@ -1,4 +1,4 @@
-import imgObras from "../assets/seguridad.png"
+import imgObras from "../assets/seguridad3.jpg"
 import { Banner } from "../components/Banner"
 import { ContactForm } from "../components/ContactForm"
 

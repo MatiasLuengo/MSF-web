@@ -1,4 +1,4 @@
-import imgObras from "../assets/img_obras.jpg"
+import imgObras from "../assets/img_empresa.jpg"
 import { ClientsContainer } from "../components/ClientsContainer"
 import { Banner } from "../components/Banner"
 

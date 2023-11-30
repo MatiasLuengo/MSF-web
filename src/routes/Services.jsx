@@ -1,5 +1,5 @@
 import {ContactForm} from "../components/ContactForm"
-import img_obras from "../assets/img_obras.jpg"
+import img_obras from "../assets/img_empresa.jpg"
 import { Banner } from "../components/Banner"
 import { ServiceArticle } from "../components/ServiceArticle"
 import contact from "../assets/contact.jpg"
