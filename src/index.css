@@ -13,6 +13,14 @@
     }
     body{
       font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+    }
+
+    p span{
+      -webkit-text-stroke: 1px black
+    }
+    h3 span{
+      -webkit-text-stroke: 1px black
     }
     
     .slider{
@@ -114,12 +122,15 @@
     -webkit-text-stroke: 1px black;
   }
   .link {
-    @apply hover:font-bold duration-75 h-min m-auto uppercase text-lg whitespace-nowrap;
+    @apply font-semibold hover:scale-105 duration-75 h-min m-auto uppercase text-lg whitespace-nowrap;
+  }
+  .link:hover {
+    -webkit-text-stroke: 1px black
   }
   .linkDrop {
     @apply whitespace-nowrap hover:font-bold duration-75 w-11/12 m-auto py-1 uppercase text-lg;
   }
   .scaleX-100 {
-    transform: scaleX(1); /* Sin escalamiento en el eje X */
+    transform: scaleX(1);
   }
 }

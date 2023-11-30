@@ -12,7 +12,7 @@ export const OurHistory = ({  }) => {
         <>
         <section>
             <Banner img={producción_industrial} alt={"Taller Industrial"} text={"Nuestra Empresa"}/>
-            <p className="w-2/3 mx-auto text-center text-2xl font-normal my-28">El 20 de agosto de 2010 nace MSF TECH S.A. Desde sus inicios la empresa tiene como su objetivo principal brindar soluciones técnicamente avanzadas que respondan a los requerimientos del cliente.<br/><br/>
+            <p className="w-2/3 mx-auto text-center text-2xl my-28">El 20 de agosto de 2010 nace MSF TECH S.A. Desde sus inicios la empresa tiene como su objetivo principal brindar soluciones técnicamente avanzadas que respondan a los requerimientos del cliente.<br/><br/>
             Un hito fundamental es haber sido contratada en el año 2011 por INVAP S.E., para el desarrollo de proyectos ejecutivos pertenecientes al “Sistema de tratamiento de residuos no combustibles de la Central Nuclear Atucha II” con la fabricación del equipamiento y los sistemas de control individual y agrupados bajo un entorno SCADA –Win CC (Siemens.)</p>
             <article className="xlg:flex mb-10">
                 <img loading="lazy" className="rounded-tr-[100px] xlg:w-1/2 max-xlg:rounded-[0px] max-xlg:mx-auto" src={imgSecurity} alt="" />
