@@ -1,6 +1,8 @@
 import producción_industrial from "../assets/producción_industrial.jpg"
+import img_obras from "../assets/prueba.jpg"
 import { StaffContainer } from "../components/StaffContainer"
 import { Banner } from "../components/Banner"
+import { Banner2 } from "../components/Banner2"
 import imgSecurity from "../assets/seguridad3.jpg"
 import iso from "../assets/ISO-9001B.svg"
 import iqnet from "../assets/iqNetB.svg"
@@ -11,7 +13,8 @@ export const OurHistory = ({  }) => {
     return (
         <>
         <section>
-            <Banner img={producción_industrial} alt={"Taller Industrial"} text={"Nuestra Empresa"}/>
+            {/* <Banner img={producción_industrial} alt={"Taller Industrial"} text={"Nuestra Empresa"}/> */}
+            <Banner2 img2={img_obras} img={producción_industrial} alt={"Taller Industrial"} text={"Nuestra Empresa"}/>
             <p className="w-2/3 mx-auto text-center text-2xl my-28">El 20 de agosto de 2010 nace MSF TECH S.A. Desde sus inicios la empresa tiene como su objetivo principal brindar soluciones técnicamente avanzadas que respondan a los requerimientos del cliente.<br/><br/>
             Un hito fundamental es haber sido contratada en el año 2011 por INVAP S.E., para el desarrollo de proyectos ejecutivos pertenecientes al “Sistema de tratamiento de residuos no combustibles de la Central Nuclear Atucha II” con la fabricación del equipamiento y los sistemas de control individual y agrupados bajo un entorno SCADA –Win CC (Siemens.)</p>
             <article className="xlg:flex mb-10">

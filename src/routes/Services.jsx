@@ -1,6 +1,7 @@
 import {ContactForm} from "../components/ContactForm"
 import img_obras from "../assets/img_empresa.jpg"
-import { Banner } from "../components/Banner"
+import aaimg_obras from "../assets/aaimg_obras.jpg"
+import { Banner2 } from "../components/Banner2"
 import { ServiceArticle } from "../components/ServiceArticle"
 import contact from "../assets/contact.jpg"
 import ingenieros from "../assets/ingenieros.jpg"
@@ -39,7 +40,7 @@ export const Services = ({  }) => {
 
     return (
         <>
-        <Banner img={img_obras} alt={"Taller Industrial"} text={"Nuestros servicios"}/>
+        <Banner2 img={img_obras} img2={aaimg_obras} alt={"Taller Industrial"} text={"Nuestros servicios"}/>
         <span id="services"></span>
         <div className="w-full overflow-hidden">
             <div className="w-10/12 m-auto flex flex-col">
