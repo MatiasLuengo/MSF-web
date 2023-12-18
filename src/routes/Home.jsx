@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
       <Banner img={img_empresa} alt={"Taller Industrial"} text={"Innovación en soluciones industriales"}/>
-      <p className="w-8/12 m-auto text-center font-semibold text-2xl my-20">Somos una empresa de ingeniería que desarrolla proyectos llave en mano a sectores como el <span className="font-black">nuclear, ferroviario, agrario, entre otras industrias.</span><br/><br/>
-      Brindamos soluciones técnicamente avanzadas que responden a los requerimientos del cliente.<br/><br/>
-      Nos dedicamos al diseño, fabricación, mantenimiento y asistencia técnica de ingeniería sobre procesos, máquinas especiales, dispositivos, piezas, equipos y matrices.
+      <p className="w-8/12 m-auto text-center font-semibold text-2xl my-20">Somos una empresa de ingeniería que ofrece soluciones integrales a través de proyectos llave en mano a sectores como <span className="font-black">el nuclear, agrario, ferroviario, entre otras industrias.</span><br/><br/>
+      Nos dedicamos al diseño, fabricación, mantenimiento y asistencia técnica de ingeniería sobre procesos, máquinas especiales, dispositivos, piezas, equipos y matrices.<br/><br/>
+      Cumplimos con los estándares más exigentes de la industria y nos esforzamos constantemente por superar las expectativas.
       </p>
       <h2 className="uppercase text-center text-4xl font-bold mb-20 mt-28">Conoce nuestros servicios</h2>
       <ServicesList/>
