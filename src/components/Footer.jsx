@@ -2,6 +2,7 @@ import msftech from "../assets/msf.svg"
 import iso from "../assets/ISO-9001W.svg"
 import iqnet from "../assets/iqNetW.svg"
 import {topFunction} from "../scripts/back-to-top"
+import { GetYear } from "../scripts/getYear"
 
 export const Footer = ({  }) => {
     return (
@@ -42,6 +43,7 @@ export const Footer = ({  }) => {
                 </div>
                 <img className="h-20" src={msftech} alt="Isologotipo de MSF Tech" />
             </div>
+            <GetYear/>
         </footer>
     );
 };

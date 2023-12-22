@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Routes>
       <Footer/>
       <a className="btn-wpp" href="https://api.whatsapp.com/send/?phone=5493564366909" target="_blank" rel="noreferrer noopener">
-        <i class='bx bxl-whatsapp'></i>
+        <i className='bx bxl-whatsapp'></i>
       </a>
     </BrowserRouter>
   </React.StrictMode>,

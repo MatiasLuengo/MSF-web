@@ -1,4 +1,4 @@
-import producción_industrial from "../assets/producción_industrial.jpg"
+import producción_industrial from "../assets/producción_industrial2.jpg"
 import img_obras from "../assets/prueba.jpg"
 import { StaffContainer } from "../components/StaffContainer"
 import { Banner } from "../components/Banner"
