@@ -1,4 +1,4 @@
-export const GetYear = () => {
+export const GetCurrentYear = () => {
     const newDate = new Date();
     const update = newDate.getFullYear().toString();
     return(
