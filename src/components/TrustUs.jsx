@@ -9,7 +9,7 @@ export const TrustUs = ({  }) => {
         setClients(currentClients);
     },[])
 
-    return (<>
+    return (
         <section className="">
             <h2 className="uppercase text-center text-4xl font-bold mb-10 mt-28 mx-2">Confían en nosotros</h2>
             <div className="slider">
@@ -19,8 +19,5 @@ export const TrustUs = ({  }) => {
                 </div>
             </div>
         </section>
-
-        
-        </>
     );
 };

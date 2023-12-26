@@ -17,10 +17,6 @@ export const Footer = ({  }) => {
                         <i className='bx bx-map text-2xl' ></i>
                         <p>José Gontero 4661<br/>Parque Industrial - San Francisco</p>
                     </a>
-                    {/* <a href="mailto:calidad@msftech.com.ar" className="flex flex-row gap-2 items-center text-xl uppercase hover:scale-105">
-                        <i className='bx bx-envelope text-2xl'></i>
-                        <p>calidad@msftech.com.ar</p>
-                    </a> */}
                     <div className="flex flex-row gap-2 items-center text-xl ">
                         <i className='bx bxs-phone text-2xl' ></i>
                         <p>3564 314043 / 3564 366909</p>
@@ -38,10 +34,10 @@ export const Footer = ({  }) => {
                     </div>
                 </div>
                 <div className="flex flex-row">
-                    <img className="w-24" src={iqnet} alt="Logo de IQNet" />
-                    <img className="w-24" src={iso} alt="Logo ISO 9001" />
+                    <img className="w-24" src={iqnet} loading="lazy" alt="Logo de IQNet" />
+                    <img className="w-24" src={iso} loading="lazy" alt="Logo ISO 9001" />
                 </div>
-                <img className="h-20" src={msftech} alt="Isologotipo de MSF Tech" />
+                <img className="h-20" src={msftech} loading="lazy" alt="Isologotipo de MSF Tech" />
             </div>
             <GetCurrentYear/>
         </footer>
