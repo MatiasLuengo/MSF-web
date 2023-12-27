@@ -40,8 +40,8 @@ export const Service = ({ imgService, imgAlt, tittle, textColor, bgColor, popUp1
     }
     return (
         <>
-        <div onClick={openModal} className="w-min mx-auto block rounded-[42px]">
-            <article className="border w-[350px] h-96 rounded-[42px] shadow-md group cursor-pointer">
+        
+            <article onClick={openModal} className="border w-11/12 max-w-[350px] h-96 rounded-[42px] shadow-md group cursor-pointer">
                 <div className="relative overflow-hidden h-1/2">
                     <img loading="lazy" className="rounded-t-[42px] bg-cover h-full w-full" src={imgService} alt={imgAlt} />
                     <div className={`absolute inset-0 ${bgColor} opacity-0 group-hover:opacity-50 rounded-t-[42px]`}></div>
@@ -49,7 +49,7 @@ export const Service = ({ imgService, imgAlt, tittle, textColor, bgColor, popUp1
                 <h3 className="text-2xl ml-8 my-4">Servicios para<br/><span className={`font-bold ${textColor}`}>{tittle}</span></h3>
                 <button className={`uppercase ml-8 text-xs bg-black ${bgColor} text-white py-2 px-4 rounded-2xl`}>Conoce más</button>
             </article>
-        </div>
+       
 
         {isModalOpen && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">

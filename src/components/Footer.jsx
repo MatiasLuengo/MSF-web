@@ -7,7 +7,7 @@ import { GetCurrentYear } from "../scripts/GetCurrentYear"
 export const Footer = ({  }) => {
     return (
         <footer className="bg-[#0a457d]">
-            <div className="w-10/12 m-auto flex flex-row flex-wrap items-center justify-center gap-14 xl:justify-between py-20">
+            <div className="w-10/12 m-auto flex flex-row flex-wrap items-center justify-center gap-14 min-[1207px]:justify-between py-20">
                 <div className="flex flex-col text-white">
                     <div onClick={topFunction} className="flex flex-row gap-2 items-center text-xl  cursor-pointer hover:scale-105">
                         <i className='bx bx-globe text-2xl pt-2' ></i>

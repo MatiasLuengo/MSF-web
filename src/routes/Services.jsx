@@ -1,6 +1,8 @@
 import {ContactForm} from "../components/ContactForm"
-import img_obras from "../assets/img_empresa2.jpg"
-import aaimg_obras from "../assets/aaimg_obras.jpg"
+import img_obras from "../assets/pruebas/b.jpg"
+import aaimg_obras from "../assets/pruebas/c.jpg"
+/* import img_obras from "../assets/img_empresa2.jpg"
+import aaimg_obras from "../assets/aaimg_obras.jpg" */
 import { Banner2 } from "../components/Banner2"
 import { ServiceArticle } from "../components/ServiceArticle"
 import contact from "../assets/contact.jpg"
