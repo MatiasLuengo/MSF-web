@@ -1,5 +1,5 @@
 import { ContactForm } from "../components/ContactForm"
-import imgContact from "../assets/trabajadores.jpg"
+import imgContact from "../assets/front.jpg"
 import { Banner } from "../components/Banner"
 import { useEffect } from "react"
 

@@ -114,4 +114,7 @@
   .scaleX-100 {
     transform: scaleX(1);
   }
+  .gradiante{
+    background: linear-gradient(to right, #0a457d 50%, #000000 50%);
+  }
 }
