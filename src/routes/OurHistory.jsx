@@ -1,5 +1,5 @@
 import producción_industrial from "../assets/producción_industrial2.jpg"
-import img_obras from "../assets/prueba.jpg"
+import img_obras from "../assets/pruebas/f.jpg"
 import { Banner2 } from "../components/Banner2"
 import imgSecurity from "../assets/seguridad3.jpg"
 import iso from "../assets/ISO-9001B.svg"
