@@ -11,7 +11,8 @@ export const TrustUs = ({  }) => {
 
     return (
         <section className="">
-            <h2 className="uppercase text-center text-4xl font-bold mb-10 mt-28 mx-2">Confían en nosotros</h2>
+            <p className="text-center mt-10 w-11/12 mx-auto">Las imágenes que se muestran son sólo de referencia y guardan la confidencialidad con nuestros clientes</p>
+            <h2 className="uppercase text-center text-4xl font-bold mb-10 mt-24 mx-2">Confían en nosotros</h2>
             <div className="slider">
                 <div className="slide_track">
                     {clients.map(client =>

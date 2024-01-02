@@ -1,13 +1,11 @@
 import {ContactForm} from "../components/ContactForm"
-import img_obras from "../assets/pruebas/k.jpg"
-import aaimg_obras from "../assets/prueba.jpg"
-/* import img_obras from "../assets/img_empresa2.jpg"
-import aaimg_obras from "../assets/aaimg_obras.jpg" */
+import img_obras from "../assets/interior.jpg"
+import aaimg_obras from "../assets/interior2.jpg"
 import { Banner2 } from "../components/Banner2"
 import { ServiceArticle } from "../components/ServiceArticle"
-import contact from "../assets/contact.jpg"
-import ingenieros from "../assets/ingenieros.jpg"
-import workers from "../assets/workers.png"
+import contact from "../assets/genericas/trabajador-funcionamiento-maquin.jpg"
+import workers from "../assets/genericas/workers.png"
+import ingenieros from "../assets/genericas/gerente-fabrica-visitando-linea.jpg"
 
 import { useEffect } from "react"
 

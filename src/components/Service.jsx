@@ -40,7 +40,7 @@ export const Service = ({ imgService, imgAlt, tittle, textColor, bgColor, popUp1
     }
     return (
         <>
-        <article onClick={openModal} className="border w-11/12 max-w-[350px] h-96 rounded-[42px] shadow-md group cursor-pointer">
+        <article onClick={openModal} className="border w-full max-w-[330px] h-96 rounded-[42px] shadow-md group cursor-pointer">
             <div className="relative overflow-hidden h-1/2">
                 <img loading="lazy" className="rounded-t-[42px] bg-cover h-full w-full" src={imgService} alt={imgAlt} />
                 <div className={`absolute inset-0 ${bgColor} opacity-0 group-hover:opacity-50 rounded-t-[42px]`}></div>
