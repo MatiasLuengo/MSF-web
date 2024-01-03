@@ -6,7 +6,7 @@ export const ContactForm = ({  }) => {
         <h2 className="text-center text-[50px] font-bold mb-20 mt-28 text-[#2e4474] font-rubik">Contactanos</h2>
         <div className="relative">
             <div className="bg-white w-10/12 m-auto rounded-3xl border-[1px] border-black grid min-[880px]:grid-cols-2 z-20 shadow-lg">
-                <form className=" w-10/12 m-auto rounded-3xl flex flex-col py-10" action="https://formsubmit.co/calidad@msftech.com.ar" method="POST">
+                <form className=" w-10/12 m-auto rounded-3xl flex flex-col py-10" action="https://formsubmit.co/6bc1c5c6c31d6457a614efd4940c4e38" method="POST">
                         <label className="text-sm mb-2" htmlFor="Nombre">Nombre y Apellido</label>
                         <input className="border-[1px] border-black rounded-md h-8 mb-4" type="text" name="Nombre" id="Nombre" required />
                         <label className="text-sm mb-2" htmlFor="Teléfono">Teléfono</label>
