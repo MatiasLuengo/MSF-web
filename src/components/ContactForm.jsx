@@ -16,7 +16,7 @@ export const ContactForm = ({  }) => {
                         <label className="text-sm mb-2" htmlFor="Mensaje">Mensaje</label>
                         <textarea className="border-[1px] border-black rounded-md mb-10 max-h-32" type="text" name="Mensaje" id="Mensaje" cols="15" rows="5" required ></textarea>
                         <input className="bg-[#2e4474] w-full xs:w-fit text-white font-semibold uppercase py-2 px-7 rounded-3xl cursor-pointer hover:scale-105" type="submit" value="Enviar" />
-                        <input type="hidden" name="_next" value="www.msftech.com.ar" />
+                        <input type="hidden" name="_next" value="http://www.msftech.com.ar/"/>
                         <input type="hidden" name="_captcha" value="true" />
                 </form>
                 <img loading="lazy" className=" max-[880px]:hidden block rounded-r-3xl w-full h-full" src={imgForm} alt="Persona trabajando en una fábrica" />

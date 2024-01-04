@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import isotipo from "../assets/isotipo.png";
+import isotipo from "../../public/isotipo.png";
 import logotipo from "../assets/logotipo.png";
 import { topFunction } from "../scripts/back-to-top";
 
