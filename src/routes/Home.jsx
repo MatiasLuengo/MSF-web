@@ -1,7 +1,7 @@
 import { ServicesList } from "../components/ServicesList"
 import { ContactForm } from "../components/ContactForm"
 import { TrustUs } from "../components/TrustUs"
-import img_empresa from "../assets/fachada.jpg"
+import img_empresa from "../assets/fachada.webp"
 import { Banner } from "../components/Banner"
 
 function Home() {

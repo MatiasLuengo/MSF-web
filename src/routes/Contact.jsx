@@ -1,5 +1,5 @@
 import { ContactForm } from "../components/ContactForm"
-import imgContact from "../assets/front.jpg"
+import imgContact from "../assets/front.webp"
 import { Banner } from "../components/Banner"
 
 export const Contact = ({  }) => {

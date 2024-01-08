@@ -1,4 +1,4 @@
-import imgForm from "../assets/genericas/trabajador-fabrica-vistiendo-uni.jpg"
+import imgForm from "../assets/genericas/trabajador-fabrica-vistiendo-uni.webp"
 
 export const ContactForm = ({  }) => {
     return (

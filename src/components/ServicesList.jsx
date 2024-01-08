@@ -1,16 +1,16 @@
 import { Service } from "./Service";
-import soldador from "../assets/genericas/soldador.jpg"
-import agro from "../assets/genericas/campo-cultivo-tractor.jpg"
-import embalse from "../assets/embalse.jpg"
-import ferroviario from "../assets/genericas/envio-contenedores-carga-traves.jpg"
-import industria1PopUp from "../assets/sectores/Otras_Industrias_1.png"
-import industria2PopUp from "../assets/sectores/Otras_Industrias_2.png"
-import ferroviario1PopUp from "../assets/sectores/Sector_ferroviario_1.png"
-import ferroviario2PopUp from "../assets/sectores/Sector_ferroviario_2.png"
-import nuclear1PopUp from "../assets/sectores/Sector_nuclear_1.png"
-import nuclear2PopUp from "../assets/sectores/Sector_nuclear_2.png"
-import agrario1PopUp from "../assets/sectores/Sector_agrario_1.png"
-import agrario2PopUp from "../assets/sectores/Sector_agrario_2.png"
+import soldador from "../assets/genericas/soldador.webp"
+import agro from "../assets/genericas/campo-cultivo-tractor.webp"
+import embalse from "../assets/embalse.webp"
+import ferroviario from "../assets/genericas/envio-contenedores-carga-traves.webp"
+import industria1PopUp from "../assets/sectores/Otras_Industrias_1.webp"
+import industria2PopUp from "../assets/sectores/Otras_Industrias_2.webp"
+import ferroviario1PopUp from "../assets/sectores/Sector_ferroviario_1.webp"
+import ferroviario2PopUp from "../assets/sectores/Sector_ferroviario_2.webp"
+import nuclear1PopUp from "../assets/sectores/Sector_nuclear_1.webp"
+import nuclear2PopUp from "../assets/sectores/Sector_nuclear_2.webp"
+import agrario1PopUp from "../assets/sectores/Sector_agrario_1.webp"
+import agrario2PopUp from "../assets/sectores/Sector_agrario_2.webp"
 
 export const ServicesList = ({  }) => {
     return (

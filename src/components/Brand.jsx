@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import isotipo from "../../public/isotipo.png";
-import logotipo from "../assets/logotipo.png";
+import logotipo from "../assets/logotipo.webp";
 import { topFunction } from "../scripts/back-to-top";
 
 export const Brand = ({  }) => {

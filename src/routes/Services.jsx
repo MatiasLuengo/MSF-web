@@ -3,9 +3,9 @@ import img_obras from "../assets/interior.jpg"
 import aaimg_obras from "../assets/interior2.jpg"
 import { Banner2 } from "../components/Banner2"
 import { ServiceArticle } from "../components/ServiceArticle"
-import contact from "../assets/genericas/trabajador-funcionamiento-maquin.jpg"
-import workers from "../assets/genericas/workers.png"
-import ingenieros from "../assets/genericas/gerente-fabrica-visitando-linea.jpg"
+import contact from "../assets/genericas/trabajador-funcionamiento-maquin.webp"
+import workers from "../assets/genericas/workers.webp"
+import ingenieros from "../assets/genericas/gerente-fabrica-visitando-linea.webp"
 
 import { useEffect } from "react"
 
