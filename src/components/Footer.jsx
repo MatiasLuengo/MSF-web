@@ -22,13 +22,13 @@ export const Footer = ({  }) => {
                         <p>3564 314043 / 3564 366909</p>
                     </div>
                     <div className="flex flex-row justify-around items-center text-4xl uppercase mt-5">
-                        <a className="hover:scale-105" href="https://www.facebook.com/msftechsa" target="_blank" rel="noreferrer noopener">
+                        <a className="hover:scale-105" href="https://www.facebook.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Facebook">
                             <i className='bx bxl-facebook-square' ></i>
                         </a>
-                        <a className="hover:scale-105" href="https://www.instagram.com/msftechsa" target="_blank" rel="noreferrer noopener">
+                        <a className="hover:scale-105" href="https://www.instagram.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Instagram">
                         <i className='bx bxl-instagram' ></i>
                         </a>
-                        <a className="hover:scale-105" href="https://www.linkedin.com/feed/update/urn:li:activity:7120039199910617089" target="_blank" rel="noreferrer noopener">
+                        <a className="hover:scale-105" href="https://www.linkedin.com/feed/update/urn:li:activity:7120039199910617089" target="_blank" rel="noreferrer noopener" aria-label="Ir a Linkedin">
                         <i className='bx bxl-linkedin-square' ></i>
                         </a>
                     </div>

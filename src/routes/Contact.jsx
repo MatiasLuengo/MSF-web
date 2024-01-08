@@ -9,13 +9,13 @@ export const Contact = ({  }) => {
         <Banner img={imgContact} alt={"Empleados Trabajando"} text={"Juntos potenciamos el crecimiento"}/>
         <h2 className="uppercase text-center text-4xl font-bold mb-20 mt-28">Seguinos en las redes</h2>
         <div className="flex flex-row justify-evenly items-center text-[76px] uppercase mt-5 mb-28 w-10/12 mx-auto">
-            <a className="hover:scale-105 text-[#3b5998]" href="https://www.facebook.com/msftechsa" target="_blank">
+            <a className="hover:scale-105 text-[#3b5998]" href="https://www.facebook.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Facebook">
                 <i className='bx bxl-facebook-square' ></i>
             </a>
-            <a className="hover:scale-105 text-[#d12f70]" href="https://www.instagram.com/msftechsa" target="_blank">
+            <a className="hover:scale-105 text-[#d12f70]" href="https://www.instagram.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Instagram">
                 <i className='bx bxl-instagram' ></i>
             </a>
-            <a className="hover:scale-105 text-[#0e76a8]" href="https://www.linkedin.com/feed/update/urn:li:activity:7120039199910617089" target="_blank">
+            <a className="hover:scale-105 text-[#0e76a8]" href="https://www.linkedin.com/feed/update/urn:li:activity:7120039199910617089" target="_blank" rel="noreferrer noopener" aria-label="Ir a Linkedin">
                 <i className='bx bxl-linkedin-square' ></i>
             </a>
         </div>

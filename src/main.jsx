@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/*' element={<NotRouteMatch />} />
       </Routes>
       <Footer/>
-      <a className="btn-wpp" href="https://api.whatsapp.com/send/?phone=5493564366909" target="_blank" rel="noreferrer noopener">
+      <a className="btn-wpp" href="https://api.whatsapp.com/send/?phone=5493564366909" target="_blank" rel="noreferrer noopener" aria-label="Ir a WhatsApp">
         <i className='bx bxl-whatsapp'></i>
       </a>
     </BrowserRouter>
