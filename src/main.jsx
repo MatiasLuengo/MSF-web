@@ -9,6 +9,7 @@ import { NavBar } from './components/NavBar.jsx'
 import { Footer } from './components/Footer.jsx'
 import { NotRouteMatch } from './components/NotRouteMatch.jsx'
 import './index.css'
+import { FaWhatsapp } from "react-icons/fa";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -23,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Routes>
       <Footer/>
       <a className="btn-wpp" href="https://api.whatsapp.com/send/?phone=5493564366909" target="_blank" rel="noreferrer noopener" aria-label="Ir a WhatsApp">
-        <i className='bx bxl-whatsapp'></i>
+          <FaWhatsapp />
       </a>
     </BrowserRouter>
   </React.StrictMode>,

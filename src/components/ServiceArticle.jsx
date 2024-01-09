@@ -1,7 +1,9 @@
+import { FaArrowRight } from "react-icons/fa";
+
 export const ServiceArticle = ({ text }) => {
     return (
-        <div className="flex items-center text-xl mt-4 gap-x-4">
-            <i className='bx bx-right-arrow-alt text-4xl'></i>
+        <div className="grid grid-flow-col items-center justify-start text-xl mt-4 gap-x-4">
+            <FaArrowRight className="text-2xl"/>
             <p>{text}</p>
         </div>
     );

@@ -3,6 +3,12 @@ import iso from "../assets/ISO-9001W.svg"
 import iqnet from "../assets/iqNetW.svg"
 import {topFunction} from "../scripts/back-to-top"
 import { GetCurrentYear } from "../scripts/GetCurrentYear"
+import { BsGlobe } from "react-icons/bs";
+import { FiMapPin } from "react-icons/fi";
+import { FaPhone } from "react-icons/fa6";
+import { RiFacebookBoxFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export const Footer = ({  }) => {
     return (
@@ -10,26 +16,26 @@ export const Footer = ({  }) => {
             <div className="w-10/12 m-auto flex flex-row flex-wrap items-center justify-center gap-8 min-[1150px]:justify-between py-20">
                 <div className="flex flex-col text-white">
                     <div onClick={topFunction} className="flex flex-row gap-2 items-center text-xl  cursor-pointer hover:scale-105">
-                        <i className='bx bx-globe text-2xl pt-2' ></i>
+                        <BsGlobe className="mt-1 text-2xl" />
                         <p>msftech.com.ar</p>
                     </div>
                     <a href="https://maps.app.goo.gl/vrZNhYvnM3GounpS8" target="_blanck" className="flex flex-row gap-2 items-center text-xl  cursor-pointer hover:scale-105" rel="noreferrer noopener">
-                        <i className='bx bx-map text-2xl' ></i>
+                        <FiMapPin className="text-2xl"/>
                         <p>José Gontero 4661<br/>Parque Industrial - San Francisco</p>
                     </a>
                     <div className="flex flex-row gap-2 items-center text-xl ">
-                        <i className='bx bxs-phone text-2xl' ></i>
+                        <FaPhone className="ml-1"/>
                         <p>3564 314043 / 3564 366909</p>
                     </div>
                     <div className="flex flex-row justify-around items-center text-4xl uppercase mt-5">
                         <a className="hover:scale-105" href="https://www.facebook.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Facebook">
-                            <i className='bx bxl-facebook-square' ></i>
+                            <RiFacebookBoxFill />
                         </a>
                         <a className="hover:scale-105" href="https://www.instagram.com/msftechsa" target="_blank" rel="noreferrer noopener" aria-label="Ir a Instagram">
-                        <i className='bx bxl-instagram' ></i>
+                            <FaInstagram />
                         </a>
                         <a className="hover:scale-105" href="https://www.linkedin.com/feed/update/urn:li:activity:7120039199910617089" target="_blank" rel="noreferrer noopener" aria-label="Ir a Linkedin">
-                        <i className='bx bxl-linkedin-square' ></i>
+                            <FaLinkedin />
                         </a>
                     </div>
                 </div>
