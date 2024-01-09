@@ -1,7 +1,7 @@
 export const SlideImg = ({ client }) => {
     return (
         <div className="slide">
-            <img src={client.image} alt="" />
+            <img className="w-[250px] h-auto" src={client.image} alt={client.name} />
         </div>
     );
 };
